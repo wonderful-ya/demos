@@ -30,7 +30,7 @@ type GuestbookSpec struct {
 
 	// Foo is an example field of Guestbook. Edit guestbook_types.go to remove/update
 	Foo string `json:"foo,omitempty"`
-	// Page int64 `json:"page,omitempty"`
+	Page int64 `json:"page,omitempty"`
 }
 
 // GuestbookStatus defines the observed state of Guestbook
