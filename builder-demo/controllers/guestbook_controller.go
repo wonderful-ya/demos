@@ -24,7 +24,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	webappv1 "demo/api/v1"
+	webappv1 "github.com/wonderful-ya/demos/builder-demo/api/v1"
 )
 
 // GuestbookReconciler reconciles a Guestbook object

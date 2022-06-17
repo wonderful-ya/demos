@@ -12,7 +12,7 @@ resources:
   domain: my.domain
   group: webapp
   kind: Guestbook
-  path: demo/api/v1
+  path: github.com/wonderful-ya/demos/builder-demo/api/v1
   version: v1
 - api:
     crdVersion: v1
@@ -21,6 +21,6 @@ resources:
   domain: my.domain
   group: batch
   kind: CronJob
-  path: demo/apis/batch/v1
+  path: github.com/wonderful-ya/demos/builder-demo/apis/batch/v1
   version: v1
 version: "3"

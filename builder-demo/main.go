@@ -31,10 +31,12 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	webappv1 "demo/api/v1"
-	batchv1 "demo/apis/batch/v1"
-	"demo/controllers"
-	batchcontrollers "demo/controllers/batch"
+	"github.com/wonderful-ya/demos/builder-demo/controllers"
+	batchcontrollers "github.com/wonderful-ya/demos/builder-demo/controllers/batch"
+
+	webappv1 "github.com/wonderful-ya/demos/builder-demo/api/v1"
+
+	batchv1 "github.com/wonderful-ya/demos/builder-demo/apis/batch/v1"
 	//+kubebuilder:scaffold:imports
 )
 
